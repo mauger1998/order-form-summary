@@ -34,8 +34,13 @@ main {
     
 }
 
-.price-box {
+.price-flex {
     border: 1px solid black;
+    display:flex;
+}
+
+.change {
+    align-self: center;
 }
 
 .bottom {
@@ -46,5 +51,5 @@ main {
     display:flex;
     flex-direction: column;
     height: 400px;
-    justify-content: space-evenly;
+    gap:100px;
 }
