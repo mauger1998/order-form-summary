@@ -130,3 +130,17 @@ main {
 .cancel {
     color:grey;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+.blue-button:hover {
+    background-color:rgb(110, 116, 235);
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color:black;
+    cursor: pointer;
+}
