@@ -44,13 +44,21 @@ main {
     gap:125px;
     max-width:300px;
     align-self: center;
-    margin-bottom:15px;
+    height:100px;
     
+    
+}
+
+.price-box {
+    align-self: center;
+    margin-left: 5px;
+    font-size:15px;
     
 }
 
 .change {
     align-self: center;
+    margin-right:10px;
 }
 
 .bottom {
