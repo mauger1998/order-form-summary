@@ -5,6 +5,7 @@
 }
 
 main {
+    font-family: 'Red Hat Display', sans-serif;
     border:1px solid black;
     height:100vh;
     display:flex;
@@ -14,10 +15,13 @@ main {
 }
 
 .card {
+    text-align: center;
     max-width:400px;
     min-height:600px;
     border-radius: 25px;
     background-color: white;
+    display:flex;
+    flex-direction: column;
     
 }
 
@@ -29,7 +33,7 @@ main {
 
 .top-sec {
     border: 1px solid black;
-    text-align: center;
+    
 }
 
 .price-box {
