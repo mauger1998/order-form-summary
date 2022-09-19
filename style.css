@@ -45,4 +45,6 @@ main {
 .writing {
     display:flex;
     flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
 }
