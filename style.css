@@ -130,3 +130,7 @@ main {
 .plan {
     font-size: 15px;
 }
+
+.cancel {
+    color:grey;
+}
