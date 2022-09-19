@@ -45,6 +45,7 @@ main {
     max-width:300px;
     align-self: center;
     height:100px;
+    background-color: hsl(225, 100%, 98%);
     
     
 }
@@ -53,6 +54,7 @@ main {
     align-self: center;
     margin-left: 5px;
     font-size:15px;
+    
     
 }
 
