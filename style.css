@@ -33,6 +33,7 @@ main {
     border: 1px solid black;
     display:flex;
     flex-direction: column;
+    margin-top:0;
     
     
 }
@@ -43,6 +44,9 @@ main {
     gap:125px;
     max-width:300px;
     align-self: center;
+    margin-bottom:15px;
+    
+    
 }
 
 .change {
@@ -57,14 +61,25 @@ main {
     display:flex;
     flex-direction: column;
     height: 400px;
-    gap:60px;
+    gap:30px;
 }
 
 .title {
-    margin: 40px 10px;
+    margin: 30px 10px;
+    margin-top:30px;
+    margin-bottom: 15px;
 }
 
 .para {
-    width:250px;
+    width:300px;
     align-self: center;
+    line-height: 1.75;
+}
+
+.bottom {
+    display:flex;
+    flex-direction: column;
+    height:100px;
+    gap:35px;
+    
 }
