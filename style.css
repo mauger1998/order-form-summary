@@ -34,6 +34,7 @@ main {
     display:flex;
     flex-direction: column;
     margin-top:0;
+    font-size:15px;
     
     
 }
@@ -47,6 +48,7 @@ main {
     height:100px;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
+    padding:12px;
     
     
 }
@@ -80,6 +82,7 @@ main {
 
 .bottom {
     border: 1px solid black;
+    margin-bottom: 25px;
 }
 
 .writing {
@@ -106,6 +109,15 @@ main {
     display:flex;
     flex-direction: column;
     height:100px;
-    gap:35px;
+    gap:10px;
     
+}
+
+.blue-button {
+    border:1px solid black;
+    padding:20px;
+}
+
+.plan {
+    font-size: 15px;
 }
