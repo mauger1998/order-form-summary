@@ -116,6 +116,8 @@ main {
 .blue-button {
     border:1px solid black;
     padding:20px;
+    width:300px;
+    align-self: center;
 }
 
 .plan {
