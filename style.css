@@ -89,7 +89,7 @@ main {
     display:flex;
     flex-direction: column;
     height: 400px;
-    gap:30px;
+    gap:20px;
 }
 
 .title {
@@ -109,7 +109,7 @@ main {
     display:flex;
     flex-direction: column;
     height:100px;
-    gap:10px;
+    gap:15px;
     
 }
 
@@ -122,6 +122,9 @@ main {
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    border-radius: 10px;
 }
 
 .plan {
