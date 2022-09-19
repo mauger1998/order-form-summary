@@ -31,6 +31,9 @@ main {
 
 .top-sec {
     border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    
     
 }
 
@@ -39,7 +42,7 @@ main {
     display:flex;
     gap:125px;
     max-width:300px;
-    
+    align-self: center;
 }
 
 .change {
@@ -54,5 +57,14 @@ main {
     display:flex;
     flex-direction: column;
     height: 400px;
-    gap:100px;
+    gap:60px;
+}
+
+.title {
+    margin: 40px 10px;
+}
+
+.para {
+    width:250px;
+    align-self: center;
 }
