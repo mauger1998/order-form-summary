@@ -53,12 +53,16 @@ main {
 
 .icon {
     align-self: center;
+    margin-left: 10px;
+    width:40px;
 }
+
 
 .price-box {
     align-self: center;
-    margin-left: 5px;
+    margin-left: 0px;
     font-size:15px;
+    margin-right:50px;
     
     
 }
