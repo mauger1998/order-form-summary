@@ -41,14 +41,18 @@ main {
 .price-flex {
     border: 1px solid black;
     display:flex;
-    gap:125px;
-    max-width:300px;
+    gap:25px;
+    width:350px;
     align-self: center;
     height:100px;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
     
     
+}
+
+.icon {
+    align-self: center;
 }
 
 .price-box {
