@@ -20,8 +20,6 @@ main {
     min-height:600px;
     border-radius: 25px;
     background-color: white;
-    display:flex;
-    flex-direction: column;
     
 }
 
@@ -42,4 +40,9 @@ main {
 
 .bottom {
     border: 1px solid black;
+}
+
+.writing {
+    display:flex;
+    flex-direction: column;
 }
